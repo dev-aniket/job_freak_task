@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  background-color: #29524A;
+  color: white;
+}
+
+#left-panel {
+  width: 20%;
+  background-color: #06070E;
+  padding: 10px;
+  height: 95vh;
+  left: 0;
+}
+
+#content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.panel-item {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.panel-item:hover {
+  background-color: #3e3e3e;
+}
+
+.active {
+  background-color: #3e3e3e;
+}
